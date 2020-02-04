@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="demoBank" duration-ms="50962" started-at="2020-01-31T08:02:10Z" finished-at="2020-01-31T08:03:01Z">
+    <groups>
+    </groups>
+    <test name="demoBank Test" duration-ms="50962" started-at="2020-01-31T08:02:10Z" finished-at="2020-01-31T08:03:01Z">
+      <class name="demoBank.testCases.TC_AddNewCustomer_003">
+        <test-method status="PASS" signature="setup(java.lang.String)[pri:0, instance:demoBank.testCases.TC_AddNewCustomer_003@6a41eaa2]" name="setup" is-config="true" duration-ms="19697" started-at="2020-01-31T08:02:11Z" finished-at="2020-01-31T08:02:31Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="addNewCustomer()[pri:0, instance:demoBank.testCases.TC_AddNewCustomer_003@6a41eaa2]" name="addNewCustomer" duration-ms="28771" started-at="2020-01-31T08:02:31Z" finished-at="2020-01-31T08:02:59Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addNewCustomer -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:demoBank.testCases.TC_AddNewCustomer_003@6a41eaa2]" name="tearDown" is-config="true" duration-ms="1305" started-at="2020-01-31T08:03:00Z" finished-at="2020-01-31T08:03:01Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- demoBank.testCases.TC_AddNewCustomer_003 -->
+    </test> <!-- demoBank Test -->
+  </suite> <!-- demoBank -->
+</testng-results>

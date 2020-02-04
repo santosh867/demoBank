@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="demoBank" duration-ms="31092" started-at="2020-01-31T10:26:31Z" finished-at="2020-01-31T10:27:02Z">
+    <groups>
+    </groups>
+    <test name="demoBank Test" duration-ms="31092" started-at="2020-01-31T10:26:31Z" finished-at="2020-01-31T10:27:02Z">
+      <class name="demoBank.testCases.TC_LoginTest_001">
+        <test-method status="PASS" signature="setup(java.lang.String)[pri:0, instance:demoBank.testCases.TC_LoginTest_001@12843fce]" name="setup" is-config="true" duration-ms="19557" started-at="2020-01-31T10:26:32Z" finished-at="2020-01-31T10:26:51Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="LoginTest()[pri:0, instance:demoBank.testCases.TC_LoginTest_001@12843fce]" name="LoginTest" duration-ms="9425" started-at="2020-01-31T10:26:51Z" finished-at="2020-01-31T10:27:01Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LoginTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:demoBank.testCases.TC_LoginTest_001@12843fce]" name="tearDown" is-config="true" duration-ms="1244" started-at="2020-01-31T10:27:01Z" finished-at="2020-01-31T10:27:02Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- demoBank.testCases.TC_LoginTest_001 -->
+    </test> <!-- demoBank Test -->
+  </suite> <!-- demoBank -->
+</testng-results>
